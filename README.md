@@ -31,7 +31,9 @@ Alien Invasion 是一个使用 Pygame 制作的2D射击游戏。玩家控制飞�
 
 
 ## 文件结构
+```html
 alien_invasion/
+
 ├── alien_invasion.py        主游戏文件，包含游戏的主要逻辑。
 
 ├── settings.py              包含所有游戏设置。
@@ -75,7 +77,7 @@ alien_invasion/
 │   ├── 子弹-1.mp3
     
 │   ├── 游戏失败-1.mp3
-    
+```
     
 
 ## 设置和自定义

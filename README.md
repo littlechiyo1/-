@@ -4,8 +4,6 @@ Alien Invasion 是一个使用 Pygame 制作的2D射击游戏。玩家控制飞�
 
 ## 目录
 
-- [安装](#安装)
-- [运行游戏](#运行游戏)
 - [游戏玩法](#游戏玩法)
 - [文件结构](#文件结构)
 - [设置和自定义](#设置和自定义)
@@ -14,7 +12,35 @@ Alien Invasion 是一个使用 Pygame 制作的2D射击游戏。玩家控制飞�
 
 ## 安装
 
-1. 克隆仓库：
+克隆仓库：
 
    ```sh
-   git clone https://github.com/yourusername/alien_invasion.git
+   git clone https://github.com/littlechiyo1/Alien.git
+
+## 游戏玩法
+使用AD 键控制飞船移动。
+按空格键射击子弹。
+消灭外星人以获得分数。
+游戏难度会在得分达到10、20、30等时自动提高。
+游戏结束时显示最终得分和最高得分。
+
+## 文件结构
+alien_invasion.py：主游戏文件，包含游戏的主要逻辑。
+settings.py：包含所有游戏设置。
+game_stats.py：跟踪游戏的统计信息。
+scoreboard.py：显示得分、最高分和等级信息。
+button.py：定义按钮类。
+ship.py：定义飞船类。
+bullet.py：定义子弹类。
+alien.py：定义外星人类。
+images/：包含游戏使用的图像资源。
+music/：包含游戏使用的音乐和音效资源。
+
+## 设置和自定义
+你可以通过编辑 settings.py 文件来自定义游戏设置。例如，可以更改屏幕大小、飞船速度、子弹速度等。
+
+## 致谢
+感谢 Pygame 社区提供的优秀游戏开发库。
+
+## 许可证
+该项目使用 MIT 许可证。请参见 LICENSE 文件以获取更多信息。

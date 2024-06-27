@@ -33,27 +33,49 @@ Alien Invasion 是一个使用 Pygame 制作的2D射击游戏。玩家控制飞�
 ## 文件结构
 alien_invasion/
 ├── alien_invasion.py        主游戏文件，包含游戏的主要逻辑。
+
 ├── settings.py              包含所有游戏设置。
+
 ├── game_stats.py            跟踪游戏的统计信息。
+
 ├── scoreboard.py            显示得分、最高分和等级信息。
+
 ├── button.py                定义按钮类。
+
 ├── ship.py                  定义飞船类。
+
 ├── bullet.py                定义子弹类。
+
 ├── alien.py                 定义外星人类。
+
 ├── images/                  包含游戏使用的图像资源。
+
 │   ├── back_1.jpg
+
 │   ├── back_2.jpg
+
 │   ├── back_3.jpg
+
 │   ├── alien_2.png
+
 │   ├── alien_3.png
+
 │   ├── button_1.png
+
 │   ├── ship.bmp
+
 │   └── ship_2.png
+
 └── music/                  包含游戏使用的音乐和音效资源。
+
     ├── 背景-1999.flac
+    
     ├── 背景-欢乐节拍.mp3
+    
     ├── 子弹-1.mp3
+    
     └── 游戏失败-1.mp3
+    
     
 
 ## 设置和自定义

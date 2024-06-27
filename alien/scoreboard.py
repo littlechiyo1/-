@@ -12,8 +12,8 @@ class Scoreboard:
         self.stats = ai_game.stats
 
         # 显示得分信息时使用的字体设置
-        self.text_color = (30, 30, 30)
-        self.font = pygame.font.SysFont('KaiTi', 48)
+        self.text_color = (91, 189, 43)
+        self.font = pygame.font.SysFont('KaiTi', 38)
 
         # 准备得分和最高分图像
         self.prep_score()
@@ -46,7 +46,7 @@ class Scoreboard:
 
     def prep_level(self):
         """将等级渲染为图像"""
-        level_str = f"当前难度等级: {str(self.stats.level)}"
+        level_str = f"当前难度等级: {str(self.settings.level)}"
         self.level_image = self.font.render(level_str, True,
                                             self.text_color)
 
@@ -60,6 +60,8 @@ class Scoreboard:
         if self.stats.score > self.stats.high_score:
             self.stats.high_score = self.stats.score
             self.prep_high_score()
+        self.stats.update_difficulty()  # 更新难度等级
+        self.prep_level()  # 更新难度等级的显示
 
     def show_score(self):
         """在屏幕上显示得分和等级"""

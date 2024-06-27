@@ -18,6 +18,10 @@ Alien Invasion 是一个使用 Pygame 制作的2D射击游戏。玩家控制飞�
    git clone https://github.com/littlechiyo1/Alien.git
    ```
 
+运行：
+
+    alien_invasion.py
+
 ## 游戏玩法
 使用AD 键控制飞船移动。
 
